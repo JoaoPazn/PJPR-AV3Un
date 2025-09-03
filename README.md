@@ -4,13 +4,13 @@ Projeto da disciplina projeto e prática da 3 unidade no IFPE campus Jaboatão d
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-João Victor da Paz https://github.com/JoaoPazn/
+- João Victor da Paz https://github.com/JoaoPazn/
 
-Matheus Luciano de Caldas https://github.com/Matheus-LucianoC
+- Matheus Luciano de Caldas https://github.com/Matheus-LucianoC
 
-Juan Vila Nova https://github.com/juanvnrojas
+- Juan Vila Nova https://github.com/juanvnrojas
 
-Davi Gleristone Alves https://github.com/Gl3ristone
+- Davi Gleristone Alves https://github.com/Gl3ristone
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
