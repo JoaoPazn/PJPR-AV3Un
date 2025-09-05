@@ -20,7 +20,7 @@
         [Link formulario] <br>
         Nós da equipe CreAIFia agradecemos!
     </p>
-    <button class = "Fechapopup">Iniciar</button>
+    <button id = "Fechapopup">Iniciar</button>
     </div>
     </div>
 
@@ -34,10 +34,12 @@
         index = (index + 1) % estilos.length;
         titulo.classList.add(estilos[index]);
     }, 1000);
+    const popup = document.querySelector(".Popup");
 
-    document.getElementById("stopBtn").addEventListener("click", () => {
-        clearInterval(trocaFonte);
-    });
+    document.getElementById("Fechapopup").addEventListener("click", () => {
+    clearInterval(trocaFonte);
+    popup.style.display = "none";
+});
 </script>
 </body>
 </html>

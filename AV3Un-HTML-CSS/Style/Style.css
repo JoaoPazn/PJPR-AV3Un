@@ -107,11 +107,12 @@ grid-area: P;
     text-shadow: 2px 2px 0 #000, 4px 4px 0 #ff3399;
 }
 
-.Fechapopup{
+#Fechapopup{
     grid-area: S;
     font-size: 32px;
     color: #171717;
     background-color: #878787;
     border: 0;
     border-radius: 5rem;
+    height: 50px;
 }
