@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>CreAIFia</title>
+    <link rel="icon" href= "../Img/kevinplaceholderbcuzilikehim.jpeg">
+    <link rel="stylesheet" href="../Style/Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- estilo 2 -->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> <!-- estilo 3 -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet"> <!-- estilo 4 -->
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet"> <!-- estilo 5 -->
+
+</head>
+<body>
+<div class = "Popup">
+    <div class = "Conteudo-Popup">
+    <img src="../Img/kevinplaceholderbcuzilikehim.jpeg">
+    <h1>Seja Bem vindo ao <span id = "span" class="estilo1">CreAIFia!</span></h1>
+    <p>Esse é um projeto de IA feito por estudantes do
+        IFPE campus jaboatão dos guararapes! 
+        Mostre seu feedback respondendo o formulário : <br>
+        [Link formulario] <br>
+        Nós da equipe CreAIFia agradecemos!
+    </p>
+    <button class = "Fechapopup">Iniciar</button>
+    </div>
+    </div>
+
+<script>
+   const estilos = ["estilo1", "estilo2", "estilo3", "estilo4", "estilo5"];
+    let index = 0;
+
+    let trocaFonte = setInterval(() => {
+        const titulo = document.getElementById("span");
+        titulo.classList.remove(estilos[index]);
+        index = (index + 1) % estilos.length;
+        titulo.classList.add(estilos[index]);
+    }, 1000);
+
+    document.getElementById("stopBtn").addEventListener("click", () => {
+        clearInterval(trocaFonte);
+    });
+</script>
+</body>
+</html>
