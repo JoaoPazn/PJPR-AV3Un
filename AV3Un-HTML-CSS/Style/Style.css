@@ -167,6 +167,10 @@ grid-area: P;
     height: 50px;
 }
 
+#Fechapopup:hover {
+    cursor: pointer; 
+}
+
 .Conteudo-Site{
     display: grid;
     width: 100vw;
