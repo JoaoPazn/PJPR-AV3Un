@@ -7,6 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> <!-- estilo 3 -->
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet"> <!-- estilo 4 -->
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet"> <!-- estilo 5 -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> <!-- estilo 6 -->
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet"> <!-- estilo 7 -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> <!-- estilo 8 -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet"> <!-- estilo 9 -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!-- estilo 10 -->
+
 
 </head>
 <body>
@@ -24,8 +30,14 @@
     </div>
     </div>
 
+    <div class = "Conteudo-Site">
+    <Aside class="Ladoesuqerdo"><p>PLACEHOLDER</p> <p>PLACEHOLDER</p> <p>PLACEHOLDER</p></Aside>
+    </div>
+
+
+
 <script>
-   const estilos = ["estilo1", "estilo2", "estilo3", "estilo4", "estilo5"];
+   const estilos = ["estilo1", "estilo2", "estilo3", "estilo4", "estilo5", "estilo6", "estilo7", "estilo8", "estilo9", "estilo10"];
     let index = 0;
 
     let trocaFonte = setInterval(() => {
@@ -33,7 +45,7 @@
         titulo.classList.remove(estilos[index]);
         index = (index + 1) % estilos.length;
         titulo.classList.add(estilos[index]);
-    }, 1000);
+    }, 500);
     const popup = document.querySelector(".Popup");
 
     document.getElementById("Fechapopup").addEventListener("click", () => {

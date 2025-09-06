@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F9F9F9;
 }
 
 .popup{
@@ -15,7 +16,7 @@ body {
 
 .Conteudo-Popup{
     width: 80vh;
-    background-color: #fff;
+    background-color: aliceblue;
     padding-top: 5rem;
     padding-bottom: 4rem;
     padding-left: 3rem;
@@ -90,6 +91,7 @@ grid-area: P;
     font-family: "Rubik Glitch", cursive;
     font-size: 48px;
     background: linear-gradient(90deg, #ff0000, #ff9900, #00ff00, #0099ff, #cc00ff);
+    background-clip: text;   
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 5s linear infinite;
@@ -107,6 +109,54 @@ grid-area: P;
     text-shadow: 2px 2px 0 #000, 4px 4px 0 #ff3399;
 }
 
+.estilo6 {
+    font-family: "VT323", monospace;
+    font-size: 40px;
+    color: #33ff00;
+    background-color: #000;
+    padding: 0.3em;
+    border: 3px solid #33ff00;
+    text-transform: uppercase;
+}
+
+.estilo7 {
+    font-family: "Freckle Face", cursive;
+    font-size: 46px;
+    background: linear-gradient(45deg, #ff0080, #ff8c00, #40e0d0);
+    background-clip: text;       
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(3deg); }
+}
+
+.estilo8 {
+    font-family: "Creepster", cursive;
+    font-size: 50px;
+    color: #ff0000;
+    text-shadow: 2px 2px 10px #000, -2px -2px 5px #800000;
+}
+
+.estilo9 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 44px;
+    color: #00eaff;
+    text-shadow: 0 0 5px #00eaff, 0 0 15px #0088ff, 0 0 30px #0044ff;
+    letter-spacing: 4px;
+}
+
+.estilo10 {
+    font-family: "Pacifico", cursive;
+    font-size: 42px;
+    color: #ff66cc;
+    text-shadow: 2px 2px 0 #66ffcc, -2px -2px 0 #ffcc66;
+}
+
 #Fechapopup{
     grid-area: S;
     font-size: 32px;
@@ -115,4 +165,26 @@ grid-area: P;
     border: 0;
     border-radius: 5rem;
     height: 50px;
+}
+
+.Conteudo-Site{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "A C"
+    "A C";
+    grid-template-columns: 80px 8fr;
+}
+
+.Ladoesuqerdo{
+    grid-area: A;
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    width: 80px;          
+    overflow: hidden;      
+    word-wrap: break-word; 
+    white-space: normal;  
+
 }
