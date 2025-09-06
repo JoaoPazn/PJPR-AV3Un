@@ -172,9 +172,8 @@ grid-area: P;
     width: 100vw;
     height: 100vh;
     grid-template-areas: 
-    "A C"
     "A C";
-    grid-template-columns: 80px 8fr;
+    grid-template-columns: 80px 1fr;
 }
 
 .Ladoesuqerdo{
@@ -187,4 +186,19 @@ grid-area: P;
     word-wrap: break-word; 
     white-space: normal;  
 
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+input{
+
+    width: 80%;
+    height: 50px;
 }
